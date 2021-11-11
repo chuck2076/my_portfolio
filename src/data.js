@@ -1,53 +1,47 @@
 export const projects = [
   {
     title: "Patient Portal",
-    subtitle: "Sequelize, Node.js, Handlebars",
+    subtitle: "Sequelize, Node.js, Handlebars, Bootstrap",
     description:
       "App for patients to schedule an appointment within a calendar",
     image: "./saguilan.gif",
     link: "https://project2-group8.herokuapp.com/login",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "NPS Weather and Wildfire Tracker",
+    subtitle: "JS, HTML, Bootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Built using JS to make API calls to OpenWeather, US National Parks and Ambee to gather current conditions inside national parks",
+    image: "./wildfire.gif",
+    link: "https://chuck2076.github.io/Weather_Wildfire_App/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "WhichCraft Tap Room and Bottle Shop",
+    subtitle: "Wordpress, Big Commmerce, HTML, CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Web site for WhichCraft Tap Room and Bottle Shop in Austin made using Wordpress, Big Commerce, HTML, CSS",
+    image: "./whichcraft.gif",
+    link: "https://www.whichcraft.com/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Team Profile Generator",
+    subtitle: "Jest NPM, Node.js, Inquirer NPM, HTML, CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Team Profile Generator using Jest tests, Inquirer, Node.js, HTML and CSS to dynamically create cards for employees",
+    image: "./team.gif",
+    link: "https://chuck2076.github.io/Team_Profile_Generator_CRS/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
+      "Chuck was invaluable to us as a store manager. His attention to detail, people skills and technical skills not only helped generate revenue but also developed a loyal customer base.",
+    image: "./jody.jpg",
+    name: "Jody Reyes",
+    company: "Owner, WhichCraft Tap Room and Bottle Shop",
+  }
+
 ];
 
 export const skills = [
