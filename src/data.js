@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Patient Portal",
+    subtitle: "Sequelize, Node.js, Handlebars",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "App for patients to schedule an appointment within a calendar",
+    image: "./saguilan.gif",
+    link: "https://project2-group8.herokuapp.com/login",
   },
   {
     title: "React Tracks",
