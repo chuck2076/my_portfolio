@@ -17,6 +17,5 @@ export default function App() {
       <Contact />
     </main>
   );
-  return "App";
-}
+  }
 
