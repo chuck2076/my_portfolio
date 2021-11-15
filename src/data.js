@@ -49,6 +49,6 @@ export const skills = [
   "React",
   "CSS",
   "Node",
-  "GraphQL",
+  "Wordpress",
   "MongoDB",
 ];
