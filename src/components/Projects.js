@@ -12,7 +12,7 @@ export default function Projects() {
                 Apps I've Built
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Applications built so far!
+                Applications built using JS, Wordpress, Node.js, MySQL2, API calls and more!
               </p>
             </div>
             <div className="flex flex-wrap -m-4">
