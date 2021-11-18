@@ -26,23 +26,31 @@ export default function Contact() {
     
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+      <div className="container px-4 py-4 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="lg:w-2/3 md:w-1/2 bg-blue-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <div className="bg-indigo-400 relative flex flex-wrap py-4 px-4 rounded shadow-md">
+            <div className="lg:w-1/2 px-4">
+              <h2 className="title-font font-semibold text-blue-900 tracking-widest ">
                 GitHub:
               </h2>
-              <p className="mt-1">
-              https://github.com/chuck2076
+              <p className="mt-1 text-white">
+            <a href= "https://github.com/chuck2076">https://github.com/chuck2076</a>
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
+              <h2 className="title-font font-semibold text-blue-900 tracking-widest">
+                Email:
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                chuckstephens2076@hotmail.com
+              <a className="text-white leading-relaxed">
+             <a href="mailto:chuckstephens2076@gmail.com">chuckstephens2076@gmail.com</a>
+              </a>
+            </div>
+            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2 className="title-font font-semibold text-blue-900 tracking-widest">
+              LinkedIn:
+              </h2>
+              <a className="text-white leading-relaxed">
+             <a href="www.linkedin.com/in/chuckstephens2076">www.linkedin.com/in/chuckstephens2076</a>
               </a>
             </div>
           </div>
