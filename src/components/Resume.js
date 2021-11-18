@@ -19,7 +19,7 @@ export default function Resume() {
 
                       <span className="flex-grow flex flex-col pl-4">
                         <span className="title-font font-medium text-white">
-                        <a href="https://docs.google.com/document/d/1mCXgqQdmYU8_8ZoPV9ybpq_qxc6RKvma_MbI-eBpBso/edit?usp=sharing">Chuck Stephens Resume</a>
+                        <a href="https://drive.google.com/open?id=10I1auVGFLiIiLNe4rDECmS062aly3GHZ&authuser=chuckstephens2076%40gmail.com&usp=drive_fs">Chuck Stephens Resume</a>
                         </span>
                       </span>
                     </div>
