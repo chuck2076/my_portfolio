@@ -1,9 +1,11 @@
 import React from "react";
+import { validateEmail } from "../utils/helpers";
 
 export default function Contact() {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [message, setMessage] = React.useState("");
+    const [errorMessage, setErrorMessage] = React.useState("");
   
     function encode(data) {
       return Object.keys(data)
@@ -15,13 +17,34 @@ export default function Contact() {
   
     function handleSubmit(e) {
       e.preventDefault();
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", name, email, message }),
-      })
-        .then(() => alert("Message sent!"))
-        .catch((error) => alert(error));
+   //   fetch("/", {
+      //   method: "POST",
+      //   headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      //   body: encode({ "form-name": "contact", name, email, message }),
+      // })
+      //   .then(() => alert("Message sent!"))
+      //   .catch((error) => alert(error));
+      if (name === "") {
+        console.log("name error ran")
+        setName("Name is Required")
+      }
+      if (validateEmail(email) === false) {
+        console.log("email error ran")
+        setEmail("Email not valid")
+      }
+      if (message === ""){
+        console.log("message error ran")
+        setMessage("Not a valid message")
+      }
+      if (errorMessage) {
+        console.log("error checker ran")
+        console.log(errorMessage);
+        return;
+      }
+      
+        setName('');
+        setEmail('');
+        setMessage('');
     }
     
   return (
@@ -56,7 +79,7 @@ export default function Contact() {
           </div>
         </div>
         <form
-          netlify
+          data-netlify="true"
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
@@ -74,6 +97,8 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
+              value={name}
+              require
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
             />
@@ -86,6 +111,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
+              value={email}
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -99,6 +125,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
+              value={message}
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
