@@ -26,7 +26,8 @@ export default function Contact() {
       //   .catch((error) => alert(error));
       if (name === "") {
         console.log("name error ran")
-        setName("Name is Required")
+        setErrorMessage("Name is Required")
+        return;
       }
       if (validateEmail(email) === false) {
         console.log("email error ran")
@@ -45,6 +46,7 @@ export default function Contact() {
         setName('');
         setEmail('');
         setMessage('');
+        setErrorMessage('');
     }
     
   return (
@@ -79,7 +81,7 @@ export default function Contact() {
           </div>
         </div>
         <form
-          data-netlify="true"
+          netlify
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
@@ -100,7 +102,7 @@ export default function Contact() {
               value={name}
               require
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setName(e.target.value)}
+              onChange={(e) => setName(e.target.value)} 
             />
           </div>
           <div className="relative mb-4">
@@ -136,6 +138,11 @@ export default function Contact() {
             Submit
           </button>
         </form>
+        {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
       </div>
     </section>
   );
