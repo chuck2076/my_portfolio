@@ -19,18 +19,7 @@ Successfully increased sales of multiple businesses through web design, digital 
 Excited to manage impactful web application projects by combining strong marketing and management background with full stack web development skills. Passionate about leveraging the strengths of individuals within web development teams to create meaningful web applications that are on-time, under budget and work seamlessly for the user.
 
               </p>
-              <div className="flex justify-center">
-                <a
-                  href="#contact"
-                  className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                  Work With Me
-                </a>
-                <a
-                  href="#projects"
-                  className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                  See My Past Work
-                </a>
-              </div>
+
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <img

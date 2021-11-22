@@ -59,7 +59,7 @@ export default function Contact() {
                 GitHub:
               </h2>
               <p className="mt-1 text-white">
-            <a href= "https://github.com/chuck2076">https://github.com/chuck2076</a>
+            <a href= "https://github.com/chuck2076">github.com/chuck2076</a>
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -75,7 +75,15 @@ export default function Contact() {
               LinkedIn:
               </h2>
               <a className="text-white leading-relaxed">
-             <a href="www.linkedin.com/in/chuckstephens2076">www.linkedin.com/in/chuckstephens2076</a>
+             <a href="https://www.linkedin.com/in/chuckstephens2076/">Chuck's LinkedIn Profile</a>
+              </a>
+            </div>
+            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2 className="title-font font-semibold text-blue-900 tracking-widest">
+                Stack Overflow:
+              </h2>
+              <a className="text-white leading-relaxed">
+             <a href="https://stackexchange.com/users/22493906/chuck-stephens">Chuck on Stack Overflow</a>
               </a>
             </div>
           </div>
