@@ -31,12 +31,28 @@ export const projects = [
     image: "./team.gif",
     link: "https://chuck2076.github.io/Team_Profile_Generator_CRS/",
   },
+  {
+    title: "Minecraft Quiz",
+    subtitle: "Javascript, HTML, CSS",
+    description:
+      "Minecraft quiz created using vanilla JS, HTML, CSS",
+    image: "./mquiz.gif",
+    link: "https://chuck2076.github.io/Homework_4_JavaScriptQuiz_CRS/",
+  },
+  {
+    title: "Fitness Tracker",
+    subtitle: "MongoDB, Express.js, Javascript, HTML, CSS",
+    description:
+      "Workout tracker using MongoDB",
+    image: "./fitness.gif",
+    link: "https://fitness-tracker-crs.herokuapp.com/",
+  },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Chuck was invaluable to us as a store manager. His attention to detail, people skills and technical skills not only helped generate revenue but also developed a loyal customer base.",
+      "Chuck was invaluable to us as a manager. His attention to detail, people skills and technical skills not only helped generate revenue but also developed a loyal customer base.",
     image: "./jody.jpg",
     name: "Jody Reyes",
     company: "Owner, WhichCraft Tap Room and Bottle Shop",
