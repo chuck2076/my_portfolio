@@ -67,4 +67,6 @@ export const skills = [
   "Node",
   "Wordpress",
   "MongoDB",
+  "Express.js",
+  "HTML"
 ];
