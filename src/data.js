@@ -6,6 +6,7 @@ export const projects = [
       "App for patients to schedule an appointment within a calendar",
     image: "./saguilan.gif",
     link: "https://project2-group8.herokuapp.com/login",
+    github: "https://github.com/samkilpatrick903/Full-Stack-Appointment-App"
   },
   {
     title: "NPS Weather and Wildfire Tracker",
@@ -14,6 +15,7 @@ export const projects = [
       "Built using JS to make API calls to OpenWeather, US National Parks and Ambee to gather current conditions inside national parks",
     image: "./wildfire.gif",
     link: "https://chuck2076.github.io/Weather_Wildfire_App/",
+    github: "https://github.com/chuck2076/Weather_Wildfire_App"
   },
   {
     title: "WhichCraft Tap Room and Bottle Shop",
@@ -30,6 +32,7 @@ export const projects = [
       "Team Profile Generator using Jest tests, Inquirer, Node.js, HTML and CSS to dynamically create cards for employees",
     image: "./team.gif",
     link: "https://chuck2076.github.io/Team_Profile_Generator_CRS/",
+    github: "https://github.com/chuck2076/Team_Profile_Generator_CRS"
   },
   {
     title: "Minecraft Quiz",
@@ -38,6 +41,7 @@ export const projects = [
       "Minecraft quiz created using vanilla JS, HTML, CSS",
     image: "./mquiz.gif",
     link: "https://chuck2076.github.io/Homework_4_JavaScriptQuiz_CRS/",
+    github: "https://github.com/chuck2076/JavaScriptQuiz_CRS"
   },
   {
     title: "Fitness Tracker",
@@ -46,6 +50,7 @@ export const projects = [
       "Workout tracker using MongoDB",
     image: "./fitness.gif",
     link: "https://fitness-tracker-crs.herokuapp.com/",
+    github: "https://github.com/chuck2076/Team_Profile_Generator_CRS"
   },
 ];
 
