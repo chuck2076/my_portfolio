@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: "NPS Weather and Wildfire Tracker",
-    subtitle: "JS, HTML, Bootstrap",
+    subtitle: "JS, HTML, Materialize",
     description:
       "Built using JS to make API calls to OpenWeather, US National Parks and Ambee to gather current conditions inside national parks",
     image: "./wildfire.gif",
@@ -40,7 +40,7 @@ export const projects = [
     description:
       "Minecraft quiz created using vanilla JS, HTML, CSS",
     image: "./mquiz.gif",
-    link: "https://chuck2076.github.io/Homework_4_JavaScriptQuiz_CRS/",
+    link: "https://chuck2076.github.io/JavaScriptQuiz_CRS/",
     github: "https://github.com/chuck2076/JavaScriptQuiz_CRS"
   },
   {
@@ -75,3 +75,5 @@ export const skills = [
   "Express.js",
   "HTML"
 ];
+
+
