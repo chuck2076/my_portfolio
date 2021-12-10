@@ -3,7 +3,7 @@ export const projects = [
     title: "Sheltr",
     subtitle: "Full MERN Stack",
     description:
-      "App using API calls to PetFinder to search for pets and save them to a database.",
+      "App using API calls to PetFinder to search for pets, create tinder style swipe cards, and save matches to a user profile.",
     image: "./sheltr.gif",
     link: "https://sheltr-app.herokuapp.com/",
     github: "https://github.com/echo1826/sheltr"
