@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Sheltr",
+    subtitle: "Full MERN Stack",
+    description:
+      "App using API calls to PetFinder to search for pets and save them to a database.",
+    image: "./sheltr.gif",
+    link: "https://sheltr-app.herokuapp.com/",
+    github: "https://github.com/echo1826/sheltr"
+  },
+  {
     title: "Patient Portal",
     subtitle: "Sequelize, Node.js, Handlebars, Bootstrap",
     description:
