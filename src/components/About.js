@@ -12,12 +12,9 @@ export default function About() {
               <p className="mb-8 leading-relaxed">
               Full stack web developer with marketing and entrepreneurial experience with a Bachelor’s in Advertising from the University of Texas and Certificate in Full Stack Web Development from the University of Texas.  
 
-Strengths in managing teams, creating budgets, guiding UX/UI and code to meet client expectations, setting goals, and meeting deadlines.
+15+ years working with Wordpress, 2+ years working with JavaScript, React, Node, Express, MongoDB, GraphQL and MySQL. Currently working freelance on multiple projects including a MERN stack administrative application and a machine learning application using React. 
 
-Successfully increased sales of multiple businesses through web design, digital marketing, SEO and budget and inventory tracking. 
-
-Excited to manage impactful web application projects by combining strong marketing and management background with full stack web development skills. Passionate about leveraging the strengths of individuals within web development teams to create meaningful web applications that are on-time, under budget and work seamlessly for the user.
-
+Successfully increased sales of multiple businesses through web design, digital marketing, SEO and budget and inventory tracking.
               </p>
 
             </div>

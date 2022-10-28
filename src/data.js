@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Sheltr",
-    subtitle: "Full MERN Stack",
+    subtitle: "MERN Stack",
     description:
       "App using API calls to PetFinder to search for pets, create tinder style swipe cards, and save matches to a user profile.",
     image: "./sheltr.gif",
@@ -82,7 +82,9 @@ export const skills = [
   "Wordpress",
   "MongoDB",
   "Express.js",
-  "HTML"
+  "HTML",
+  "GraphQL",
+  "MySQL",
 ];
 
 
